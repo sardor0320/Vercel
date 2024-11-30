@@ -3,7 +3,7 @@ import logo from "../../assets/img/Screenshot 2022-08-20 at 6.31 1 (Traced).png"
 import { RiSlashCommands2 } from "react-icons/ri";
 import { BsFillMoonFill } from "react-icons/bs";
 import { LuSun } from "react-icons/lu";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
 function Navbar() {
@@ -147,7 +147,7 @@ function Navbar() {
             <button className=" 2xl:block hidden  border px-3 rounded-xl border-[gray]">
               Sign up
             </button>
-            <GiHamburgerMenu className="light:text-black dark:text-white text-2xl mt-2 ms-2 block 2xl:hidden " />
+            {/* <GiHamburgerMenu className="light:text-black dark:text-white text-2xl mt-2 ms-2 block 2xl:hidden " /> */}
           </div>
           <div
             className="items-center justify-between hidden w-full xl:flex xl:w-auto xl:order-1"

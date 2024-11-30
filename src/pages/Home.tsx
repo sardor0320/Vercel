@@ -8,9 +8,6 @@ import img5 from "../assets/img/22.png";
 import img6 from "../assets/img/7 (1).png";
 import { Footer } from "../components/footer/Footer";
 import Navbar from "../components/navbar/navbar";
-// import { Navbar } from "../components/navbar/navbar"
-
-// import { MarqueeDemo } from './components/ui/test'
 export const HomePage = () => {
   return (
     <div className="">

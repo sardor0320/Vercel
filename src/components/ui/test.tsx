@@ -116,7 +116,7 @@ const reviews3 = [
 
 export function MarqueeDemo() {
     return (
-        <div className="relative flex h-[500px] w-full flex-col items-center justify-center gap-y-7 overflow-hidden">
+        <div className="relative flex h-[500px] w-full flex-col items-center justify-center gap-y-7">
             <Marquee pauseOnHover className="[--duration:0s]">
             <div className="flex flex-wrap  items-center">
              {
